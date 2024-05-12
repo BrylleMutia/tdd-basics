@@ -7,10 +7,12 @@
       "dev": "vite",
       "build": "tsc && vite build",
       "preview": "vite preview",
-      "test": "jest --watchAll --verbose"
+      "test": "jest --watchAll --verbose",
+      "e2e": "cypress open"
    },
    "devDependencies": {
       "@types/jest": "^29.5.12",
+      "cypress": "^13.9.0",
       "typescript": "^5.2.2",
       "vite": "^5.2.0"
    },
